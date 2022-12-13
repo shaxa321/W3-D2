@@ -101,7 +101,7 @@ console.log("la somma è              :",ex5sum(ex4Numbers));
 */
 console.log("EX 6");
 const ex6SumN=function(arr,n){
-result=arr.map(x=>x+n);
+const result=arr.map(x=>x+n);
 return result;
 }
 
@@ -115,7 +115,16 @@ console.log("il risultato è          :",ex6SumN(ex6Numbers,ex6N));
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
+console.log("EX 8");
+const ex8LenghtString= function(arr){
+  let words=arr.map(function(a,b,c){
 
+  })
+
+
+}
+const ex8Array=["EPICODE","is","Cane","great","uzBekIstan"]
+console.log(ex8LenghtString(ex8Array));
 /* ESERCIZIO 9
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
